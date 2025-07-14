@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 
-export default function Index() {
+export default function Config() {
   return (
     <View
       style={{
@@ -9,8 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text> Timer screen </Text>
-      <Text> Timer screen </Text>
+      <Text> Config screen </Text>
     </View>
   );
 }
